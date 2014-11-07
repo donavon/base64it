@@ -1,0 +1,29 @@
+{
+  "name": "base64it",
+  "version": "0.9.0",
+  "description": "A simple base64 encoder/decoder that works with HTML5 and Node. Supports strict mode and URL safe.",
+  "homepage": "https://github.com/YuzuJS/base64it",
+  "main": "lib/base64it.js",
+  "author": {
+    "name": "YuzuJS"
+  },
+  "keywords": [
+    "base64"
+  ],
+  "contributors": [
+    {
+      "name": "Donavon West",
+      "email": "email@donavon.com",
+      "url": "http://donavon.com"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/YuzuJS/base64it/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YuzuJS/base64it.git"
+  },
+  "readmeFilename": "README.md"
+}

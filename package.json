@@ -17,9 +17,21 @@
       "url": "http://donavon.com"
     }
   ],
+  "devDependencies": {
+    "jshint": ">= 0.7.1",
+    "coffee-script": ">= 1.3.3",
+    "mocha": ">= 1.1.0",
+    "chai": ">= 1.0.4",
+    "sinon": ">= 1.3.4",
+    "sinon-chai": ">= 2.1.0"
+  },
   "license": {
     "type": "MIT",
     "url": "http://github.com/YuzuJS/base64it/raw/master/LICENSE"
+  },
+  "scripts": {
+    "lint": "jshint ./lib",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",

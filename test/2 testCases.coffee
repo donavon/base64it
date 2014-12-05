@@ -4,6 +4,8 @@ ts1 = "\xff\xef\xfe\xff\xef\xfeTesting 1 2 3"
 ts2 = "The quick brown fox jumps over the lazy dog"
 
 tests = [
+    { in: "Hello world", out: "SGVsbG8gd29ybGQ="}
+
     { in: ts1, out: "/+/+/+/+VGVzdGluZyAxIDIgMw==" }
     { in: ts1, out: "_-_-_-_-VGVzdGluZyAxIDIgMw==", options: {urlSafe:true} }
     { in: ts1, out: "/+/+/+/+VGVzdGluZyAxIDIgMw", options: {stripPadding:true} }

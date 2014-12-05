@@ -1,6 +1,6 @@
 {
   "name": "base64it",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A simple base64 encoder/decoder that works with HTML5 and Node. Supports strict mode and URL safe encoding/decoding.",
   "homepage": "https://github.com/YuzuJS/base64it",
   "main": "lib/base64it.js",
@@ -37,5 +37,8 @@
     "type": "git",
     "url": "git://github.com/YuzuJS/base64it.git"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "base64-js": "0.0.7"
+  }
 }

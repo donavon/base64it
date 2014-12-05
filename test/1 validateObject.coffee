@@ -59,6 +59,11 @@ describe "When decode is called", ->
             val = base64.decode(encCRLF)
             val.should.be.equal(unenc)
 
+    describe "with a encoded string without padding", ->
+        it "should decode it", ->
+            val = base64.decode(encnopad)
+            val.should.be.equal(unenc)
+
 describe "When strictEncode is called", ->
     describe "with no options", ->
         it "should encode it", ->

@@ -10,9 +10,12 @@ tests = [
     { in: ts1, out: "/+/+/+/+VG\r\nVzdGluZyAx\r\nIDIgMw==", options: {lineLength:10} }
     { in: ts1, out: "/+/+/+/+VG\r\nVzdGluZyAx\r\nIDIgMw", options: {lineLength:10, stripPadding:true} }
     { in: ts1, out: "_-_-_-_-VG\r\nVzdGluZyAx\r\nIDIgMw", options: {lineLength:10, stripPadding:true, urlSafe:true} }
+
     { in: ts2, out: "VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZw==" }
     { in: ts2, out: "VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZw==", options: {lineLength:1000} }
     { in: ts2, out: "VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZw", options: {lineLength:1000, stripPadding:true} }
+
+    { in: "", out: "" }
 ]
 
 describe "Test Cases", ->

@@ -49,6 +49,9 @@ Where:
 * **lineLength**:Number - if set, the resulting string will be broken into multiple lines seperated by \r\n. This is normally set to either 64 or 76. (default = one continuous line)
 * **urlSafe**:Boolean - if set, the resulting string will be URL Safe (i.e. "+" and "/" chars willbe converted to "-" and "_" respectively). (default = false)
 
+##### base64.decode(encoded:string):string
+This will decode a base64 encoded string. Padding characters are optional.
+
 ##### base64.strictEncode(unencoded:string, options?:Options):string
 This is simply sugar around `base64.encode` with the `urlSafe` options seto to `false`. 
 
@@ -56,12 +59,10 @@ This is simply sugar around `base64.encode` with the `urlSafe` options seto to `
 This is simply sugar around `base64.encode` with the `urlSafe` options seto to `true`. 
 
 ##### base64.strictDecode(encoded:string):string
-This will decode a base64 encoded string. Padding characters are optional.
+This is a same as `base64.decode`.
 
 ##### base64.urlSafeDecode(encoded:string):string
-
-This will decode a URL safe base64 encoded string. Padding characters are optional.
+This is a same as `base64.decode`.
 
 ## License
 For use under [MIT license](http://github.com/YuzuJS/base64it/raw/master/LICENSE)
-

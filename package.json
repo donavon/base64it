@@ -37,5 +37,8 @@
     "type": "git",
     "url": "git://github.com/YuzuJS/base64it.git"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "base64-js": "0.0.7"
+  }
 }
